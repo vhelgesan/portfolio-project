@@ -1,9 +1,31 @@
-body {
-  background-color: brown;
+:root {
+  --branding-background: bisque;
+  --branding-font: rgb(58, 39, 22);
+  --branding-font-family: "Xanh Mono", monospace;
 }
-h1 {
+
+.hero {
+  background-color: bisque;
+  text-align: center;
+  padding: 150px 0;
+}
+
+.hero h1 {
   font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 80px;
+  color: rgb(82, 55, 32);
 }
-h2 {
-  font-family: "Xanh Mono", monospace;
+.hero h2 {
+  font-family: var(--branding-font-family);
+  font-size: 36px;
+  color: var(--branding-font);
+}
+
+.btn-branding {
+  background-color: var(--branding-background);
+  font-family: var(--branding-font-family);
+  font-size: 20px;
+  color: var(--branding-font);
+  border-color: var(--branding-font);
+  border-radius: 6px;
 }
