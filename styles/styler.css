@@ -56,23 +56,23 @@ p {
   .service-description {
     text-align: center;
   }
-  .about-section {
+  .content-container {
     text-align: center;
   }
 }
 
-.about-section h1 {
+.content-container h1 {
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-size: 70px;
   color: var(--branding-font);
 }
-.about-section h2 {
+.content-container h2 {
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-size: 40px;
 }
-.about-section p {
+.content-container p {
   font-size: 15px;
 }
-.about-section {
-  margin: 70px 120px 70px 120px;
+.content {
+  text-align: center;
 }
