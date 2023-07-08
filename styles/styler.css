@@ -76,3 +76,37 @@ p {
 .content {
   text-align: center;
 }
+.logo {
+  max-width: 90px;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 50px;
+  margin-left: 15px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav {
+  padding: 20px 0;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav a:hover {
+  color: var(--branding-font);
+}
+nav li.active a {
+  color: var(--branding-font);
+}
+footer {
+  margin: 60px;
+}
+.social-links a {
+  margin: 0 20px;
+  color: var(--branding-font);
+  font-size: 28px;
+}
